@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --tag="leanix/leanix-openldap:latest" .
+docker build --tag="leanix/openldap:latest" .

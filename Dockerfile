@@ -19,5 +19,4 @@ RUN service slapd start \
 
 EXPOSE 389
 
-CMD slapd -h 'ldap:///' -g openldap -u openldap -d 0
-
+CMD ulimit -n 1024 && slapd -h 'ldap:///' -g openldap -u openldap -d 0

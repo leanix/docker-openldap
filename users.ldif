@@ -17,26 +17,13 @@ objectClass: organizationalUnit
 objectClass: top
 ou: People
 
-dn: uid=jsmith,ou=People,dc=example,dc=edu
+dn: uid=cio@meshlab.de,ou=People,dc=example,dc=edu
 objectClass: organizationalPerson
 objectClass: person
 objectClass: top
 objectClass: inetOrgPerson
-givenName: Joe
-uid: jsmith
-sn: Smith
-cn: John Smith
-userPassword: password
-
-
-dn: uid=banderson,ou=People,dc=example,dc=edu
-objectClass: organizationalPerson
-objectClass: person
-objectClass: top
-objectClass: inetOrgPerson
-givenName: Bob
-uid: banderson
-sn: Anderson
-cn: Bob Anderson
-userPassword: password
-
+givenName: Peter
+uid: cio@meshlab.de
+sn: Schmidt
+cn: Peter Schmidt
+userPassword: demo
